@@ -5,6 +5,7 @@
   "repository": "https://github.com/FRSOURCE/babylon-box3d.git",
   "homepage": "https://github.com/FRSOURCE/babylon-box3d",
   "scripts": {
+    "dev": "pnpm run --filter @frsource/babylon-box3d-demo dev",
     "build": "tsup && node scripts/bundle-ambient-types.mjs",
     "lint": "eslint . && prettier . --check",
     "fix": "pnpm eslint --fix && prettier . --write",
