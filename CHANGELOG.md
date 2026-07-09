@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/FRSOURCE/babylon-box3d/compare/v1.0.0...v1.1.0) (2026-07-09)
+
+
+### Features
+
+* reexport box3d-wasm typings from plugin ([bd7c6b5](https://github.com/FRSOURCE/babylon-box3d/commit/bd7c6b5ff936475fd14cd5cf1aad00d598590e3b))
+
 # 1.0.0 (2026-07-09)
 
 
