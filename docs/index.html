@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Babylon.js + Box3D</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        background: #0b0e14;
+      }
+      canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+        touch-action: none;
+      }
+      #hud {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 10;
+        color: #cdd6f4;
+        font: 13px/1.5 monospace;
+        background: rgba(11, 14, 20, 0.7);
+        border: 1px solid #2a2f3a;
+        border-radius: 6px;
+        padding: 8px 12px;
+        pointer-events: none;
+        white-space: pre;
+      }
+      #menu {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 10;
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        max-width: 60vw;
+      }
+      #menu button {
+        color: #cdd6f4;
+        font: 13px monospace;
+        cursor: pointer;
+        background: rgba(11, 14, 20, 0.7);
+        border: 1px solid #2a2f3a;
+        border-radius: 6px;
+        padding: 6px 12px;
+      }
+      #menu button:hover {
+        border-color: #89b4fa;
+      }
+      #menu button.active {
+        background: #89b4fa;
+        color: #0b0e14;
+        border-color: #89b4fa;
+      }
+      #ghlink {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 10;
+        color: #cdd6f4;
+        font: 13px monospace;
+        text-decoration: none;
+        background: rgba(11, 14, 20, 0.7);
+        border: 1px solid #2a2f3a;
+        border-radius: 6px;
+        padding: 6px 12px;
+      }
+      #ghlink:hover {
+        border-color: #89b4fa;
+        color: #89b4fa;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="renderCanvas"></canvas>
+    <div id="hud">loading...</div>
+    <div id="menu"></div>
+    <a
+      id="ghlink"
+      href="https://github.com/FRSgit/babylon-box3d"
+      target="_blank"
+      rel="noopener"
+      >@frsource/babylon-box3d on GitHub</a
+    >
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

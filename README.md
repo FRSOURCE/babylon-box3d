@@ -70,7 +70,11 @@ itself uses. `extraJoints.d.ts` augments it with the wheel/filter/parallel joint
 compiled `box3d-wasm@0.2.0` binary by instantiating it and inspecting the live prototypes) for consumers who need
 raw access. Both are ambient module declarations; `index.ts` pulls them into the program via triple-slash
 references, so any package that does `import { Box3DPlugin } from '@frsource/babylon-box3d'` gets them for free --
-no `tsconfig.json` changes needed.
+no `tsconfig.json` changes needed, _as long as you access box3d-wasm's types only through `Box3DPlugin` itself_
+(e.g. `plugin.world.createWheelJoint(...)`). If your own code also writes a direct `import ... from 'box3d-wasm'`,
+TypeScript won't honor a dependency's augmentation of an already-resolved-but-untyped module for that import (see
+TS2665) -- copy `box3d-wasm.d.ts` (and `extraJoints.d.ts` if you need the wheel/filter/parallel joints) into your
+own project in that case, the way `docs/` here does for the demo.
 
 ## Demo
 
