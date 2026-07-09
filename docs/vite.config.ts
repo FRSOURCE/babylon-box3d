@@ -4,6 +4,9 @@ import { defineConfig } from 'vite';
 // user/org page), so every asset URL needs the repo name as a base path.
 export default defineConfig({
   base: '/babylon-box3d/',
+  worker: {
+    format: 'es',
+  },
   build: {
     outDir: 'dist',
   },
