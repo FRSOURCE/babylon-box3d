@@ -1,0 +1,72 @@
+{
+  "name": "@frsource/babylon-box3d",
+  "version": "0.0.1",
+  "description": "Babylon.js Physics V2 plugin backed by box3d-wasm (Erin Catto's Box3D compiled to WebAssembly)",
+  "repository": "https://github.com/FRSgit/babylon-box3d.git",
+  "homepage": "https://github.com/FRSgit/babylon-box3d",
+  "scripts": {
+    "build": "tsup && node scripts/bundle-ambient-types.mjs",
+    "lint": "eslint . && prettier . --check",
+    "fix": "pnpm eslint --fix && prettier . --write",
+    "prepack": "pnpm build",
+    "release": "semantic-release",
+    "release:ci": "pnpm release --yes",
+    "release:test": "pnpm release --no-git-tag-version --no-push --skip-npm",
+    "test": "vitest run",
+    "test:dev": "vitest --ui --open",
+    "typecheck": "tsc --noEmit"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    },
+    "./*": "./*.js"
+  },
+  "keywords": [
+    "babylonjs",
+    "physics",
+    "box3d",
+    "box2d",
+    "wasm",
+    "webassembly"
+  ],
+  "author": "Jakub Freisler <jakub.freisler@frsource.org>",
+  "license": "MIT",
+  "packageManager": "pnpm@11.9.0",
+  "dependencies": {
+    "box3d-wasm": "^0.2.0"
+  },
+  "peerDependencies": {
+    "@babylonjs/core": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "^9.15.0",
+    "@frsource/eslint-config": "1.85.2",
+    "@frsource/prettier-config": "1.47.2",
+    "@frsource/semantic-release-config": "1.116.2",
+    "@vitest/coverage-v8": "4.1.9",
+    "@vitest/ui": "4.1.9",
+    "del-cli": "7.0.0",
+    "eslint": "10.5.0",
+    "globals": "17.7.0",
+    "tsup": "8.5.1",
+    "prettier": "3.8.4",
+    "semantic-release": "25.0.5",
+    "typescript": "^6.0.3",
+    "vitest": "4.1.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "funding": "https://buymeacoffee.com/frsource"
+}
