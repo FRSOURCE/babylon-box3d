@@ -1,0 +1,13 @@
+# 1.0.0 (2026-07-09)
+
+
+### Bug Fixes
+
+* auto-enable GitHub Pages and grant issues:write for release reporting ([3a17c06](https://github.com/FRSOURCE/babylon-box3d/commit/3a17c063a5ff33e27fd593dfccf53c90d7104cdb))
+* grant contents:write to the release job so semantic-release can push ([96fe7d8](https://github.com/FRSOURCE/babylon-box3d/commit/96fe7d8b3dbcb403d9824f1db22c5b259339ca04))
+
+
+### Features
+
+* add Babylon.js demo (docs/) and GitHub Pages deploy workflow ([1e1da6b](https://github.com/FRSOURCE/babylon-box3d/commit/1e1da6bbdd80f26e78919fa946d81b3c2d8bcd34))
+* extract Box3DPlugin into a standalone, publishable package ([b3e4f15](https://github.com/FRSOURCE/babylon-box3d/commit/b3e4f1549cde91ce466e2c27517b2e7962f2f5f3))
