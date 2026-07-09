@@ -62,11 +62,12 @@ jobs:
     name: build and release
     runs-on: ubuntu-latest
     needs: [cache, lint, test]
-    # semantic-release pushes the version tag/CHANGELOG commit and creates a
-    # GitHub release; the default GITHUB_TOKEN is read-only unless granted
-    # this explicitly.
+    # semantic-release pushes the version tag/CHANGELOG commit, creates a
+    # GitHub release, and (on failure) comments on an issue with details --
+    # the default GITHUB_TOKEN is read-only unless granted these explicitly.
     permissions:
       contents: write
+      issues: write
     steps:
       - uses: actions/checkout@v6
         with:
