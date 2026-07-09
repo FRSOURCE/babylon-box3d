@@ -8,8 +8,8 @@
   <a href="https://github.com/semantic-release/semantic-release">
     <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="semantic-relase badge">
   </a>
-  <a href="https://github.com/FRSgit/babylon-box3d/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/FRSgit/babylon-box3d.svg" alt="license MIT badge">
+  <a href="https://github.com/FRSOURCE/babylon-box3d/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/FRSOURCE/babylon-box3d.svg" alt="license MIT badge">
   </a>
 </p>
 
@@ -21,7 +21,7 @@ A Babylon.js [Physics V2](https://doc.babylonjs.com/features/featuresDeepDive/ph
 It follows the same shape as `@babylonjs/havok`'s `HavokPlugin`: a class implementing `IPhysicsEnginePluginV2` that
 can be passed straight to `scene.enablePhysics(gravity, plugin)`.
 
-**[Live demo →](https://frsgit.github.io/babylon-box3d/)**
+**[Live demo →](https://frsource.github.io/babylon-box3d/)**
 
 ## Installation
 

@@ -2,8 +2,8 @@
   "name": "@frsource/babylon-box3d",
   "version": "0.0.1",
   "description": "Babylon.js Physics V2 plugin backed by box3d-wasm (Erin Catto's Box3D compiled to WebAssembly)",
-  "repository": "https://github.com/FRSgit/babylon-box3d.git",
-  "homepage": "https://github.com/FRSgit/babylon-box3d",
+  "repository": "https://github.com/FRSOURCE/babylon-box3d.git",
+  "homepage": "https://github.com/FRSOURCE/babylon-box3d",
   "scripts": {
     "build": "tsup && node scripts/bundle-ambient-types.mjs",
     "lint": "eslint . && prettier . --check",
