@@ -49,8 +49,8 @@
     "@frsource/eslint-config": "1.85.2",
     "@frsource/prettier-config": "1.47.2",
     "@frsource/semantic-release-config": "1.116.2",
-    "@vitest/coverage-v8": "4.1.9",
-    "@vitest/ui": "4.1.9",
+    "@vitest/coverage-v8": "4.1.10",
+    "@vitest/ui": "4.1.10",
     "del-cli": "7.0.0",
     "eslint": "10.5.0",
     "globals": "17.7.0",
@@ -58,7 +58,7 @@
     "prettier": "3.8.4",
     "semantic-release": "25.0.5",
     "typescript": "^6.0.3",
-    "vitest": "4.1.9"
+    "vitest": "4.1.10"
   },
   "publishConfig": {
     "access": "public"
