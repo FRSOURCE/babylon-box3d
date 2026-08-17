@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@babylonjs/core": "9.15.0",
+    "@babylonjs/core": "9.21.2",
     "@frsource/babylon-box3d": "workspace:*",
     "box3d-wasm": "^0.2.0"
   },
