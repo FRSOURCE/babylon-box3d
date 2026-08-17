@@ -1,6 +1,6 @@
 {
   "name": "@frsource/babylon-box3d",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Babylon.js Physics V2 plugin backed by box3d-wasm (Erin Catto's Box3D compiled to WebAssembly)",
   "repository": "https://github.com/FRSOURCE/babylon-box3d.git",
   "homepage": "https://github.com/FRSOURCE/babylon-box3d",
