@@ -46,8 +46,8 @@
   },
   "devDependencies": {
     "@babylonjs/core": "9.26.0",
-    "@frsource/eslint-config": "1.85.10",
-    "@frsource/prettier-config": "1.47.9",
+    "@frsource/eslint-config": "1.85.12",
+    "@frsource/prettier-config": "1.47.11",
     "@frsource/semantic-release-config": "1.116.17",
     "@vitest/coverage-v8": "4.1.11",
     "@vitest/ui": "4.1.11",
@@ -55,7 +55,7 @@
     "eslint": "10.10.0",
     "globals": "17.12.0",
     "tsup": "8.5.1",
-    "prettier": "3.9.6",
+    "prettier": "3.9.8",
     "semantic-release": "25.0.9",
     "typescript": "^6.0.3",
     "vitest": "4.1.11"
