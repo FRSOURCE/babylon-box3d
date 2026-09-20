@@ -1,3 +1,10 @@
+## [1.1.18](https://github.com/FRSOURCE/babylon-box3d/compare/v1.1.17...v1.1.18) (2026-09-20)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency bump ([#24](https://github.com/FRSOURCE/babylon-box3d/issues/24)) ([e1d6ac5](https://github.com/FRSOURCE/babylon-box3d/commit/e1d6ac59211dd4f175fc2c049777bf7d2e49bfa0))
+
 ## [1.1.17](https://github.com/FRSOURCE/babylon-box3d/compare/v1.1.16...v1.1.17) (2026-09-20)
 
 ## [1.1.16](https://github.com/FRSOURCE/babylon-box3d/compare/v1.1.15...v1.1.16) (2026-09-14)
