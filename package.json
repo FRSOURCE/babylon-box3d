@@ -48,7 +48,7 @@
     "@babylonjs/core": "9.31.0",
     "@frsource/eslint-config": "1.86.0",
     "@frsource/prettier-config": "1.48.0",
-    "@frsource/semantic-release-config": "1.117.3",
+    "@frsource/semantic-release-config": "1.117.4",
     "@vitest/coverage-v8": "5.0.5",
     "@vitest/ui": "5.0.5",
     "del-cli": "7.0.0",
