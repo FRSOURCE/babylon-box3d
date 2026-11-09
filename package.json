@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@babylonjs/core": "9.31.0",
-    "@frsource/eslint-config": "1.86.3",
+    "@frsource/eslint-config": "1.86.4",
     "@frsource/prettier-config": "1.48.2",
     "@frsource/semantic-release-config": "1.117.5",
     "@vitest/coverage-v8": "5.0.5",
