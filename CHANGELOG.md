@@ -1,3 +1,5 @@
+## [1.1.37](https://github.com/FRSOURCE/babylon-box3d/compare/v1.1.36...v1.1.37) (2026-11-23)
+
 ## [1.1.36](https://github.com/FRSOURCE/babylon-box3d/compare/v1.1.35...v1.1.36) (2026-11-17)
 
 ## [1.1.35](https://github.com/FRSOURCE/babylon-box3d/compare/v1.1.34...v1.1.35) (2026-11-16)
